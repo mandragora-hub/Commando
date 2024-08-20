@@ -178,7 +178,7 @@ int MultiMode::Exe()
 
 
 // show basic usage statement
-std::string MultiMode::ShowUsage()
+std::string MultiMode::ShowUsage() const
 {
 
         std::string tab(7 + name.length(), ' ');
@@ -202,7 +202,7 @@ std::string MultiMode::ShowUsage()
 
 
 // show more complete help information
-std::string MultiMode::ShowHelp()
+std::string MultiMode::ShowHelp() const
 {
         std::stringstream message;
         message << ShowUsage() << std::endl;
