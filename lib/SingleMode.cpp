@@ -30,10 +30,6 @@
 #include "CLI/ArgManager.hpp"
 
 
-#define not !
-#define and &&
-
-
 namespace CLI {
 
 
